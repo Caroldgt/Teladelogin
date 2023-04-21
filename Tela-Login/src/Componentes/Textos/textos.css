@@ -2,27 +2,33 @@
 
 :root {
   --cor--principal: #ff53f9;
-  --fonte-dos-textos: "Cuprum";
+  --fonte-dos-textos: "Cuprum", sans-serif;
+  --fonte-dos-titulos: "Cuprum", sans-serif;
 }
 
 .textos {
-    color: var(--cor--principal);
-    font-family: var(--fonte-dos-textos);
-    position: absolute;
-    width: 370px;
-    height: 70px;
-    left: 270px;
-    top: 190px; /* altere o valor para ajustar a posição vertical dos títulos */
-    text-align: left;
-  }
-  
-  .textos h2 {
-    font-size: 30px;
-    margin: 0; /* remova as margens para que os títulos fiquem mais próximos */
-  }
-  
-  .textos h3 {
-    font-size: 28px;
-    margin: 0; /* remova as margens para que os títulos fiquem mais próximos */
-  }
+  color: var(--cor--principal);
+  font-family: var(--fonte-dos-textos);
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  left: 270px;
+  top: 240px; /* altere o valor para ajustar a posição vertical dos títulos */
+  text-align: left;
+}
+
+.textos h2 {
+  font-size: 30px;
+  margin: 0; /* remova as margens para que os títulos fiquem mais próximos */
+  font-family: var(--fonte-dos-titulos);
+  font-weight: 700;
+}
+
+.textos h3 {
+  font-size: 28px;
+  margin: 0; /* remova as margens para que os títulos fiquem mais próximos */
+  font-family: var(--fonte-dos-titulos);
+  font-weight: 600;
+}
+
   
