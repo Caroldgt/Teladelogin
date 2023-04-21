@@ -22,31 +22,6 @@ Instale as dependências:
 
 Abra o navegador e acesse http://localhost:3000
 
-## Estrutura do projeto
-
-O projeto possui a seguinte estrutura de arquivos:
-
-nome-do-repositorio/
-├── public/
-│ ├── index.html
-│ └── ...
-├── src/
-│ ├── components/
-│ │ ├── LoginForm.js
-│ │ └── ...
-│ ├── pages/
-│ │ ├── LoginPage.js
-│ │ └── ...
-│ ├── App.js
-│ └── index.js
-├── .gitignore
-├── package.json
-├── README.md
-└── yarn.lock
-
-
-A pasta public/ contém os arquivos públicos do projeto, como o arquivo HTML principal. A pasta src/ contém o código fonte da aplicação, dividido em componentes e páginas. O arquivo App.js é responsável por renderizar a aplicação no navegador, enquanto o arquivo index.js é responsável por inicializar o servidor do Vite.
-
 ## Funcionalidades
 
 A tela de login possui os seguintes recursos:
