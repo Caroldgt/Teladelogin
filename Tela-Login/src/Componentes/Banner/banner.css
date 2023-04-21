@@ -1,16 +1,12 @@
+.imagem{
+  position: relative;
+  z-index: 1;
+}
+
 .imagem {
-    position: absolute;
-    width: 475px;
-    height: 454px;
-    left: 203px;
-    top: 371px;
-  }
-  
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    float: left;
-    margin-right: 10px;
-  }
-  
+  position: absolute;
+  width: 475px;
+  height: 454px;
+  left: 203px;
+  top: 371px;
+}

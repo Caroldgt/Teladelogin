@@ -1,12 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cuprum:wght@400;600;700&display=swap");
 
 :root {
-    --fonte-principal: 'Cuprum';
-    --cor-principal: #FF53F9;
+  --cor--principal: #ff53f9;
+  --fonte-dos-textos: "Cuprum";
+}
+
+.textos {
+    color: var(--cor--principal);
+    font-family: var(--fonte-dos-textos);
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    left: 270px;
+    top: 190px; /* altere o valor para ajustar a posição vertical dos títulos */
+    text-align: left;
   }
   
-
-
-.textos{
-    font-family: var(--fonte-principal);
-}
+  .textos h2 {
+    font-size: 30px;
+    margin: 0; /* remova as margens para que os títulos fiquem mais próximos */
+  }
+  
+  .textos h3 {
+    font-size: 28px;
+    margin: 0; /* remova as margens para que os títulos fiquem mais próximos */
+  }
+  
