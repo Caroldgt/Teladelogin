@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@400;600;700&display=swap');
+
+:root {
+    --fonte-principal: 'Cuprum';
+    --cor-principal: #FF53F9;
+  }
+  
+
+
+.textos{
+    font-family: var(--fonte-principal);
+}
