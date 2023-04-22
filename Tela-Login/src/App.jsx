@@ -1,7 +1,9 @@
 
 import './App.css'
 import Banner from './Componentes/Banner';
+import Formulario from './Componentes/Formulario';
 import Textos from './Componentes/Textos';
+
 
 
 function App() {
@@ -10,6 +12,7 @@ function App() {
     <div>
     <Textos/>
    <Banner/>
+   <Formulario/>
    </div>
   )
 }
