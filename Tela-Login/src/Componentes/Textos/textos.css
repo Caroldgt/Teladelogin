@@ -31,3 +31,17 @@
   font-weight: 600;
 }
 
+@media screen and (max-width: 769px) {
+  .textos {
+    display: block;
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%); /* centraliza horizontalmente */
+    text-align: left;
+  }
+}
+
+
