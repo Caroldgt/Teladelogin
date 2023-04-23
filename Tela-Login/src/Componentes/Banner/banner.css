@@ -1,8 +1,3 @@
-.imagem{
-  position: relative;
-  z-index: 1;
-}
-
 .imagem {
   position: absolute;
   width: 475px;
