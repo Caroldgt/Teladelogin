@@ -155,68 +155,67 @@ h1 {
 
 @media screen and (max-width: 390px) {
   .form {
-    position: absolute;
-    background-color: transparent;
-    border-radius: 0%;
-    position: relative;
-    top: -1rem; /* altere o valor para ajustar a posição vertical do form */
-    left: 50%;
-    transform: translateX(-50%);
-    align-items: center;
-    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  background-color: transparent;
+  border-radius: 0%;
+  position: relative;
+  top: -1rem; /* altere o valor para ajustar a posição vertical do form */
+  left: 50%;
+  transform: translateX(-50%);
+  align-items: center;
+  box-shadow: 0rem 0rem 0rem 0rem rgba(0, 0, 0, 0.2);
   }
   .form input {
-    height: 1.5rem;
-    width: 16.125rem;
-    margin-right: 3.125rem;
-    border-radius: .625rem;
-    background: rgba(213, 217, 210, 0.1);
-    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.2);
-    border-radius: 1rem;
-    margin-bottom: 3.25rem;
-    padding: 1.875rem;
+  height: 1.5rem;
+  width: 16.125rem;
+  margin-right: 0.3125rem;
+  border-radius: 0.625rem;
+  background: rgba(213, 217, 210, 0.1);
+  box-shadow: 0rem 0.4375rem 0.3125rem rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  margin-bottom: 3.25rem;
+  padding: 1.875rem;
   }
-
+  
   form button {
-    height: 60px;
-    width: 19.875rem;
-    margin-right: 50px;
-    border-radius: 10px;
-    background: #ff53f9;
-    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    padding: 1.875rem;
+  height: 4rem;
+  width: 19.875rem;
+  margin-right: 1.25rem;
+  border-radius: 1rem;
+  background: #ff53f9;
+  box-shadow: 0rem 0.4375rem 0.3125rem rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
+  padding: 1.875rem;
   }
   form button {
-    font-size: 32px;
-    font-family: "Cuprum";
-    font-style: normal;
-    font-weight: 700;
-    line-height: 4px;
-    color: #201b2c;
+  font-size: 2rem;
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0.125rem;
+  color: #201b2c;
   }
   form h1 {
-    font-family: "Cuprum";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 60px;
-    margin-right: 3.125rem;
-    color: #ff53f9;
-  }
-
-  form label {
-    display: inline-block;
-    width: 100px;
-    text-align: left;
-    margin-right: 200px;
-    vertical-align: top;
-    padding: 3px;
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.75rem;
+  margin-right: 0.3125rem;
+  color: #ff53f9;
   }
   
   form label {
-    font-size: 22px;
-    font-family: "Cuprum";
+  display: inline-block;
+  width: 6.25rem;
+  text-align: left;
+  margin-right: 12.5rem;
+  vertical-align: top;
+  padding: 0.1875rem;
   }
   
+  form label {
+  font-size: 1.375rem;
+  font-family: "Cuprum";
+  }
   
-}
+  }
