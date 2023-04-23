@@ -19,6 +19,10 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;}}
 
+    .imagemgatinho{
+      background-image: url(../public/icon/gatinho.png);
+    }
+
 @media screen and (max-width: 768px) {
   body {
     background-image: url(../public/icon/gatinhomobile.png);
