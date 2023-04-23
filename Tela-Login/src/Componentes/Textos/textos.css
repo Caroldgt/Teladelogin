@@ -33,15 +33,19 @@
 
 @media screen and (max-width: 769px) {
   .textos {
-    display: block;
     position: absolute;
-    width: 370px;
-    height: 70px;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%); /* centraliza horizontalmente */
+    display: block;
+    color: var(--cor--principal);
+    font-family: var(--fonte-dos-textos);
+    left: 11.75rem;
+    margin: 4px;
+    top: 56.75rem; /* altere o valor para ajustar a posição vertical dos títulos */
     text-align: left;
+    color: white;
+  }
+
+  .textos h1{
+    font-size: 1.25rem;
   }
 }
-
 

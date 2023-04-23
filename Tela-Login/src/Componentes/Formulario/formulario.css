@@ -74,24 +74,25 @@ h1 {
 
 @media screen and (max-width: 769px) {
   .form {
+    position: absolute;
     background-color: transparent;
     border-radius: 0%;
     position: relative;
     top: 0;
-    left: 50%;
+    left: 40%;
     transform: translateX(-50%);
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
   }
   form h1 {
     font-size: 6em;
     margin: 0;
-    margin-bottom: 85px;
+    margin-bottom: 4.6875rem;
   }
 
   form input {
     background: rgba(217, 217, 217, 0.16);
     box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.4);
-    border-radius: 10px;
+    border-radius: .625rem;
     color: rgba(255, 255, 255, 0.4);
   }
 }
