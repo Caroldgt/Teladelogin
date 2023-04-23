@@ -35,11 +35,9 @@
   .textos {
     position: absolute;
     display: block;
-    color: var(--cor--principal);
     font-family: var(--fonte-dos-textos);
-    left: 11.75rem;
-    margin: 4px;
-    top: 56.75rem; /* altere o valor para ajustar a posição vertical dos títulos */
+    left: 14.75rem;
+    top: 55.75rem; /* altere o valor para ajustar a posição vertical dos títulos */
     text-align: left;
     color: white;
   }
@@ -49,3 +47,8 @@
   }
 }
 
+@media screen and (max-width: 543px){
+  .textos{
+    display: none;
+  }
+}

@@ -24,3 +24,15 @@
     
   }
 }
+
+@media screen and (max-width: 360px){
+  body {
+    background-image: url(../public/icon/gatinhomobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    
+  }
+}
+
