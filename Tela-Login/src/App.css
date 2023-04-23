@@ -1,11 +1,15 @@
+* {
+  margin: 0;
+}
+
+
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .imagem {
     display: none;
   }
@@ -14,24 +18,33 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   body {
     background-image: url(../public/icon/gatinhomobile.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    
   }
 }
-
-@media screen and (max-width: 360px){
+@media screen and (max-width: 427px) {
   body {
     background-image: url(../public/icon/gatinhomobile.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    
   }
+
+  @media screen and (max-width: 390px) {
+    body {
+      background-image: url(../public/icon/gatinhomobile.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      overflow: hidden;
+      margin: 0;
+    }
+  }
+  
 }
