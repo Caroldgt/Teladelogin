@@ -52,3 +52,21 @@
     display: none;
   }
 }
+
+
+@media screen and (max-width: 415px) {
+  .textos {
+    position: absolute;
+    display: block;
+    font-family: var(--fonte-dos-textos);
+    left: 2.75rem;
+    top: 48.75rem; /* altere o valor para ajustar a posição vertical dos títulos */
+    text-align: left;
+    color: white;
+  }
+
+  .textos h1{
+    font-size: 1.25rem;
+  }
+}
+
