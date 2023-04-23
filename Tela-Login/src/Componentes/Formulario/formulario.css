@@ -19,7 +19,13 @@
   border-radius: 16px;
   margin-bottom: 89px;
   padding: 20px;
+
+}
+
+form input{
   border: none;
+  font-family: 'Cuprum';
+  font-size: 26px;
 }
 
 form label {
@@ -29,8 +35,13 @@ form label {
   margin-right: 270px;
   vertical-align: top;
   padding: 3px;
-  font-size: 20px;
 }
+
+form label{
+  font-size: 26px;
+  font-family: 'Cuprum';
+}
+
 
 form button {
   height: 65px;
@@ -40,7 +51,7 @@ form button {
   background: #ff53f9;
   box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-  padding: 10px;
+  padding: 1px;
 }
 
 form button {
@@ -49,8 +60,17 @@ form button {
   font-family: "Cuprum";
   font-style: normal;
   font-weight: 700;
-
   line-height: 46px;
-
   color: #201b2c;
+}
+
+
+h1{
+  font-family: 'Cuprum';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 74px;
+
+color: #FF53F9;
 }
