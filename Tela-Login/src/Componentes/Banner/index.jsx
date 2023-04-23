@@ -3,8 +3,9 @@ import "./banner.css"
 
 function Banner (){
     return(
-        
-        <img className="imagem" src="./image/gatinho.png"  alt="gatinho"/>
+        <div className="imagem">
+        <img  src="./image/gatinho.png"  alt="gatinho"/>
+        </div>
     )
 }
 
