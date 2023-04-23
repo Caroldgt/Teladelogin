@@ -74,3 +74,23 @@ line-height: 74px;
 
 color: #FF53F9;
 }
+
+@media screen and (max-width: 769px) {
+    .form {
+      background-color: transparent;
+      border-radius: 0%;
+      position: relative;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+  }
+   form h1{
+   font-size: 6em;
+   margin: 0;
+   margin-bottom: 30px;
+}
+
+
+
+}

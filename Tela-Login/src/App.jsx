@@ -11,8 +11,8 @@ function App() {
   return (
     <div>
     <Textos/>
+    <Formulario/>
    <Banner/>
-   <Formulario/>
    </div>
   )
 }

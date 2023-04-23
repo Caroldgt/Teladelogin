@@ -12,24 +12,24 @@ function Formulario() {
   };
 
   return (
-    <div>
-      <form className="form" onSubmit={enviofeito}>
-        <h1>LOGIN</h1>
-        <label htmlFor="usuario">usuario</label>
+    <div >
+      <form className="form"  onSubmit={enviofeito}>
+        <h1 className="titulo">LOGIN</h1>
+        <label htmlFor="usuario">Usuario</label>
         <input
         id="usuario"
           type="text"
-          placeholder="Usuario"
+          placeholder="Dige seu usuario..."
           required
           value={name}
           onChange={(event) => setName(event.target.value)}
         />
         <div>
-        <label for="senha">senha</label>
+        <label for="senha">Senha</label>
         <input
         id="senha"
           type="password"
-          placeholder="qual sua sennha?"
+          placeholder="Qual sua sennha?"
           required
           value={password}
           onChange={(event) => setPassword(event.target.value)}
